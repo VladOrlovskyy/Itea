@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul id="sp">
+        <li id="item1">First element</li>
+        <li id="item2">Second element</li>
+        <li id="item3">Third element</li>
+        <li id="item4">Fourth element</li>
+    </ul>
+
+    <form>
+
+        <input type="button" class="button" onclick="selectFirstChild()" value="Вибрати перший елемент" /><br>
+        <input type="button" class="button" onclick="selectLastChild()" value="Вибрати останній елемент" /><br>
+        <input type="button" class="button" onclick="selectNext()" value="Вибрати наступний елемент" /><br>
+        <input type="button" class="button" onclick="selectPrev()" value="Вибрати попередній елемент" /><br>
+        <input type="button" class="button" onclick="addElement()" value="Додати елемент" /><br>
+        <input type="button" class="button" onclick="deleteElement()" value="Видалити елемент" /><br>
+        <input type="button" class="button" onclick="addFirstElement()" value="Додати елемент на початок" /><br>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
